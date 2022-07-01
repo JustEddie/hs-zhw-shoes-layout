@@ -18,6 +18,30 @@
   line-height: 0;
 }
 
+.featured {
+  display: grid;
+  column-count: 2;
+  grid-template-columns: 66% 32%;
+  column-gap: 2%;
+  margin-top: 10px;
+}
+
+
+.deals {
+  display: grid;
+  column-count: 3;
+  grid-template-columns: 32% 32% 32%;
+  column-gap: 2%;
+  margin-top: 20px;
+}
+
+#details.clearfix .wrapper{
+  display: grid;
+  column-count: 3;
+  grid-template-columns: 33% 33% 33%;
+  column-gap: 10px;
+}
+
 .clear {
   clear: both;
 }
